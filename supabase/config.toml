@@ -1,0 +1,6 @@
+project_id = "sitepulse"
+
+[functions.run-audit]
+# Public demo endpoint. Keep strict URL validation and add edge-level rate limiting
+# before launch. Do not enable direct arbitrary URL fetching in this function.
+verify_jwt = false
